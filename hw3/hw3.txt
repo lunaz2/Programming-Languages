@@ -1,0 +1,99 @@
+Homework 3: Due 11:59PM November 20
+
+Pick JavaScript as one example and some other language you actually used in this course in one of the assignments.
+
+Mention the name of that language and discuss the similarities and differences of that language and JavaScript. Give
+examples.
+
+Ruby vs JavaScript
+
+Similarities:
+- Object Oriented Programming: everything in the 2 languages is an object, including function, string, number. You can call "a".length which is a property of object String in both languages. 
+- Dynamic Languages: variable type are determined at runtime. 
+Declare variable in Ruby: n = 20 / JavaScript: var n = 20;  
+- They allow higher order functions: You can pass a function to another function. In Ruby you pass a block to a function, in JavaScript you pass an anonymous function to a function. 
+Ruby:
+
+filtered = (1..5).map{|n| n*2}.select{|n| n < 4}
+
+Javascript: 
+var filtered = [1, 2, 3, 4, 5].map(function(n) {return n * 2}).filter(function(n) {return n < 4});
+
+- Add functions to an object dynamically. In Ruby, we can open the class and add new methods in it or use Mixins and have the class include a module.
+Ruby:
+
+class Person
+end
+
+module Greet
+	def hello
+		puts "hello..."
+	end
+end
+
+Person.class_eval do
+	include Greet
+	# or define def hello here.
+end
+
+luan = Person.new
+luan.hello /=> hello...
+
+JavaScript:
+
+var Person = function() {}
+var luan = new Person();
+luan.hello = function() {
+	console.log("hello...")
+}
+
+luan.hello();
+
+Differences:
+- Ruby syntax is much more symple [Venkat: spelling] and easier to understand compare to JavaScript. JavaScript has ceremony like () amd ;. Although ; are optional but should not be omitted because the JavaScript will automatically add them and can cause problems. Almost all functions in JavaScript require ().
+- Ruby is block-level scoping. JavaScript is function-level scoping. In JavaScript, variables are declared before hand in a function. 
+Ruby:
+def foo
+	local1 = 5
+	puts local1
+	
+	(1..2).each{ |num|
+		puts num
+	}
+	puts num
+end
+
+foo() // => 5 1 2 Error
+
+JavaScript:
+var foo = function() {
+	var local1 = 5;
+	console.log(local1);
+	{
+		var local2 = 7;
+		console.log(local2);
+	}
+	console.log(local2);
+}
+foo(); // => 5 7 7
+- Ruby is strongly typed, method called with incorrect parameters will give error. In JavaScript which is weakly typed, passing incorrect parameters to a function is still runnable by converting the parameters behind the scene. 
+Ruby: 
+def foo(number)
+	puts number
+end
+foo(5) // => 5
+foo() // error
+
+JavaScript:
+var foo = function(number) {
+	console.log(number);
+}
+foo(5); // => 5
+foo(); // =? undefined
+foo(1,2,3); // => 1
+-Ruby is fully Object Oriented based language while JavaScript is Prototyped based language. Ruby supports class and JavaScript supports prototypes. In JavaScript, class is a function, every function has a Prototype. An instance of a class will be an instance of the prototype of the function.
+-Inheritance in Ruby is static, JavaScript has prototypal inheritance. Function in JavaScript can change its prototype and get different properties.
+-Loop through an array in JavaScript returns the indexes. Comparing object used ===, if use == mean comparing value and JavaScript will do conversion. 
+
+Usage: 
+Both JavaScript and Ruby can be used to make many things like web application, games, server, databases etc. But JavaScript is mostly used in web application and commonly used with HTML, CSS and AJAX. JavaScript makes HTML page more dynamic and increases the interaction between user and the web page. Ruby is designed for more of a general-purpose language. However, Ruby on Rails (or Rails - a Ruby framework) is very popular in the present in making web application. Rails combine Ruby with HTML, CSS, and JavaScript to create a server-side web application.

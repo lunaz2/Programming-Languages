@@ -1,0 +1,75 @@
+Homework 4: Due 11:59PM December 04
+
+**There will no reviews for this Homework**
+
+Feel free to give answers collectively, and also if you want to, you can call 
+out something specific to yourself different from your pair.
+
+(a) What languages did you use in this course? 
+
+Ruby, Scala, Erlang, Java
+
+(b) Which one of those you used for the first time?
+
+Erlang, Ruby, Scala
+
+(c) What are your impressions about all the languages that you used (compare
+and contrast in your view)?
+
+Ruby is a very flexible functional language that has an elegant syntax. Ruby 
+is fully object oriented and dynamically typed. Ruby has a very strong conventions,
+some certain behaviors are based on a certain convention. Example: class name 
+is mixcase, function are lowercase separate with underscore. 
+
+Ruby support metaprogramming. You can open an existing class and add methods 
+into it. We can also use method_missing to deal with missing methods. You can
+also add more behaviors to classes using Mixins. Good use to create internal DSL.
+
+
+Erlang is a purely functional language is really suitable for functional programming 
+and concurrency. Erlang syntax is very similar to Prolog, what we learned in AI 
+course. In facts, Erlang initially implemented in Prolog. 
+
+Recursion is one of the key strength in Erlang, looping in Erlang is done with
+internal iterator using recursion. Recursion code in Erlang is very expressive. 
+It also provide a good way combine recursion with list processing. In our assign2, 
+we wrote fibonacci sequences only with 5 lines of code. Erlang also has pattern 
+matching, ordering is very important with pattern matching in Erlang. Erlang 
+provides Actor Based Model to deal with concurrency.
+
+
+Scala is statically styped language with type inferrent, hybrid functional and 
+fully object oriented language. We can write both imperative style and functional
+style code in Scala. 
+
+Parameters of a function in Scala are automamically pass down to the chain. Scala 
+use _ in various different places like import package, pattern matching, anonymous 
+function to reduce the syntax. Scala code can be very concise with these behaviors
+Examples:   def add(a : Int, b: Int) = { a + b }
+			val sum = [1, 2, 5, 6, 10].foldLeft(0) { add }
+
+Scala also has metaprogramming. You can convert an object to a different object using
+implicit method.  We can also do partially apply function, which is similar to currying 
+in its uses, to reduce the noises and duplications. Scala also provides some attributes 
+in lazy evaluation. Scala highly honor immutable and with Actor Based Model, it support 
+concurrency really well.
+
+(d) What did you learn mostly in this course (I'm interested in hearing
+your views, things you realized, things you found interesting, things
+you did not like so much about any particular language, etc.)?
+
+We mostly learn how to write code functionally in Ruby and Scala. We also have some more
+understanding about Ruby, Groovy, Scala, F#, Clojure, Erlang, JavaScript. We learned about 
+the typing of these languages, what strong point these languages have, we have mentioned 
+some of it in the previous question. Those are what we think is very powerful. It does take 
+quite an effort to understand and know how to use it, but it is worth the effort. We also 
+learned about tail-recusion, how it really great with iterative process. You have also 
+mentioned some information about concurrency, and in Scala, Clojure and F# it was much easier
+to implement than what I was dealing with in C++ for Operating System course. 
+
+Creating DSL was also a great experience. We were struggling with the assignment and trying
+to get it as less ceremonies as possible. With only some experiences with C++, C#, and Java,
+getting rid of those . and () was very exciting. Especially when we first try Ruby out, it 
+supprised me how elegant the syntax can be, easy to read and understand. JavaScript and Ruby 
+both provide so much control over the language. It's like you are ordering the language to do
+stuff for you. 

@@ -1,0 +1,64 @@
+[Venkat 11/12/15 04:29 AM CET]
+review: you're done
+
+You're done.
+
+------------------------------------------------------------------------------
+[Venkat 11/11/15 05:13 AM CET]
+review: more refactoring
+
+refactor some more.
+
+------------------------------------------------------------------------------
+[Venkat 11/10/15 05:24 AM CET]
+review: nice progress
+
+Nice.
+
+One more refactoring.
+
+Move to the next language.
+
+------------------------------------------------------------------------------
+[Venkat 11/09/15 06:26 AM EET]
+review: refactor and move forward
+
+Refactor and write tests for
+1. a price list where prices are missing for some lengths.
+2. a price list where the solution does not include the length itself.
+
+------------------------------------------------------------------------------
+[Venkat 11/08/15 09:22 AM EET]
+review: more refactoring
+
+See suggestions in code. Remove warnings when the build is run.
+
+------------------------------------------------------------------------------
+[Venkat 11/07/15 05:37 AM EET]
+review: avoid mutation
+
+reduce code, avoid mutation.
+
+------------------------------------------------------------------------------
+[Venkat 11/06/15 04:44 AM EET]
+review: address my previous reviews
+
+My notes from previous review is still in the code. Address my previous review
+before asking for another review.
+
+Rework the code, see suggestions.
+
+------------------------------------------------------------------------------
+[Venkat 11/04/15 05:23 AM CET]
+review: reduce code, use functional style, avoid mutation
+
+Refactor.
+
+------------------------------------------------------------------------------
+[Venkat 11/03/15 04:43 AM CET]
+review: rework tests, avoid state, avoid mutation
+
+See suggestions in code.
+
+------------------------------------------------------------------------------
+Ruby

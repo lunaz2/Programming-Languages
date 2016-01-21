@@ -1,0 +1,37 @@
+Files you check in outside of specific homework or assignment directory will not be reviewed or graded for that homework/assignment.
+
+Check in and modify files as many times as you like. You will not be able to modify the files after the deadline.
+
+You will work as a pair, both of you are responsible for the completed work in all assignments and homework. 
+Each of you are expected to put in your reasonable share of effort into it.
+
+The deadlines are strict, there will be no extensions. Don't email any code to Venkat.
+
+Your last check in before the deadline will be graded. So, if you break code (in assignments) before the deadline, you will lose.
+
+Please feel free to ask for frequent reviews (see the readme.txt file in the reviews folder for details on how to ask for reviews).
+
+You can evolve the answers and solutions based on the reviews to your pair and to other pairs in the course.
+Only the latest checkin at the time of review will be looked at. Also the final check in will be the only one graded.
+
+Please read the academic honesty policy posted on the course mailing list.
+
+--------------------------------------------------------------------------------------------------------------
+Homework 1: Due 11:59PM September 4th
+
+What are the differences between statements and expressions. Given examples. What are the benefits and the consequences of using each one of them. 
+
+Feel free to read up, but do provide references to where you learn from. The description should be in your own words. If you find some really catchy phrases or quotes you'd like to use, do so, but put them in double quotes along with the name of who said (wrote) it.
+
+Share your own experiences, observations, things that may have intrigued you.
+
+Your answer goes here:
+
+Statements are commands that don’t have return value. They usually ask user to perform certain action like open files, set an argument. Statements place the result of the computation at a predefined position. Since statements don’t have a return value, it cannot be freely combined; thus, programmer has to know how statements work internally to successfully combine them. Examples of statements: if – else statement, while loop, for loop, etc. In imperative style language like C#, Java, C++ these examples are statements but in language like Ruby for loop and if else are expression. In Ruby, for loop return the range of the object, if return the expression in it.
+
+Expressions have a return value to do certain actions or print certain things. Expressions don’t store the result of computation but pass it to other expressions. Expression can ignore the return result. Using expression can provide conciseness in code and promote reusability. It also can be combined in various ways since one expression passing its result to another. Some languages like Ruby completely avoid statements, using series of expressions. Examples of expression: arithmetic functions/operations, print function, etc.
+
+In the video lecture, we have seen how we can pass expression as an argument of a function and reuse the function in Ruby and Scala. Even the puts method in Ruby return nil had surprised me. It state that Ruby is full of expression, which return something. 
+
+
+Total [10]: 10

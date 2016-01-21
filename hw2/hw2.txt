@@ -1,0 +1,21 @@
+Homework 2: Due 11:59PM October 16
+
+What is referential transparency? Discuss. What are the benefits. Give examples.
+
+Referentially transparent expression is where given the same inputs, it will always produce the same outputs. You can replace the expression with its return value anywhere in the program without changing the program behavior. 
+
+It is most often used in functional programming languages, because referential transparency requires no mutable state, no side effects in the function. The return value must depend only on the arguments of the function.
+
+Referential transparency promotes lazy evaluation (function will compute when needed to reduce unnecessary computations) and memoization (transforming function into equivalent functions). This would help simplify the algorithm and optimize the code. Therefore, the programmers and the compilers are more easily allowed to reason or expect the behavior of the program. 
+
+It also improve readability, reliability and verifiability for code since "we get what we see" in all referentially transparent functions. This help debugging code a lot easier. 
+
+In Erlang, you’re never allowed to modify the value of something if it could cause someone else’s data to be changed behind their back. Erlang allow single assignment only. This is also the main idea behind referential transparency. This also promotes substitutability.
+
+It also improve compilers/interpreters performance and efficientcy. It would run the code however it would run the fastest, the code dont have to be run sequentially.
+
+Example: all functions in mathematical sense are referentially transparent. For instance, 10 can be replace by 5+5. 
+int plusOne(int x) {return x+1} is referentially transparent. As for any x it would return x+1, since it has no side effect. 
+
+
+Total [10]: 10

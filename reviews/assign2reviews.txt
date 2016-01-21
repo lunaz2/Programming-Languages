@@ -1,0 +1,106 @@
+[Venkat 10/01/15 21:37 PM EDT]
+review: yay, you're done.
+
+done.
+
+------------------------------------------------------------------------------
+[Venkat 09/30/15 07:51 AM EDT]
+review: refactor
+
+tail_recursive_fibonacci: Reduce further.
+Move the if as a separate declaration (1, Series) to reduce noise within the
+function.
+
+------------------------------------------------------------------------------
+[Venkat 09/28/15 06:22 AM EDT]
+review: reduce
+
+tail_recursive_fibonacci: reduce number of declarations and also
+avoid reverse.
+
+------------------------------------------------------------------------------
+[Venkat 09/27/15 09:08 AM EDT]
+review: nice progress
+
+recursive_fibonacci:
+Give space around operators like -.
+
+Nice work.
+
+Give space after comma.
+
+tail_recursive_fibonacci: A bit noisy, reduce code.
+
+------------------------------------------------------------------------------
+[Venkat 09/26/15 07:46 AM EDT]
+review: reduce
+
+Erlang:
+Give space after comma to improve readability.
+
+tail_recursive_fibonacci: Reduce code for this.
+
+------------------------------------------------------------------------------
+[Venkat 09/25/15 09:25 AM EDT]
+review: nice progress
+
+Scala: good work
+
+Erlang:
+Give a blank line between tests.
+Give space after comma.
+
+Fix warning shown when run.sh (rebar) is run.
+
+------------------------------------------------------------------------------
+[Venkat 09/24/15 07:48 AM MDT]
+review: refactor
+
+See refactoring suggestion in the test. Also, use the recommended annotation
+for tail call.
+
+------------------------------------------------------------------------------
+[Venkat 09/23/15 06:54 AM CDT]
+review: reduce calls
+
+Nil is a smell. Instead return List()
+
+fibonnaciRecursive: Call this function once, not twice within this
+function.
+
+------------------------------------------------------------------------------
+[Venkat 09/22/15 07:33 AM MDT]
+review: one step at a time, don't rush to the next implementation
+
+RecursiveFibonacci: Change to FibonacciSeries (then later, not now,
+we can put the tail recursive function here).
+
+fibonnaciRecursive: Remove the inner function.
+
+Name files without underscore in Scala.
+
+Package names should be lower case, not capitalized.
+
+------------------------------------------------------------------------------
+[Venkat 09/20/15 05:53 AM EDT]
+review: reduce code
+
+RecursiveFibonacciTest:
+Nice tests.
+
+In the test, give space after comma.
+
+get_series_fibonacci -> fibonnaciRecursive
+
+In this function, remove the inner function. Make this function recursive
+and work to build a list right in this function.
+
+------------------------------------------------------------------------------
+[Venkat 09/19/15 05:50 AM EDT]
+review: test report shows no tests run
+
+View the build/reports/tests/index.html file after running gradle.
+It shows that no tests were run.
+
+------------------------------------------------------------------------------
+scala - done

@@ -1,0 +1,70 @@
+[Venkat 10/28/15 07:09 AM MDT]
+review: you're done
+
+yay, you're done.
+
+------------------------------------------------------------------------------
+[Venkat 10/27/15 06:44 AM MDT]
+review: let's make the dsl a bit ore fluent
+
+See suggestion.
+
+------------------------------------------------------------------------------
+[Venkat 10/26/15 01:24 AM CET]
+review: let's design the syntax for the second language first.
+
+Update dsl.txt file to show what we want to create. Once we have the
+syntax figured out, fluent and feasible, we can start implementing with tests.
+
+------------------------------------------------------------------------------
+[Venkat 10/25/15 08:31 AM CET]
+review: one more refactoring
+
+We can remove some smell, see suggestion in code. After fixing, move
+to the next language.
+
+------------------------------------------------------------------------------
+[Venkat 10/24/15 13:33 PM CEST]
+review: make sure the test fails before it passes
+
+Notice warnings when rake is run.
+
+Check the test. Write a failing test then make it pass.
+
+------------------------------------------------------------------------------
+[Venkat 10/24/15 02:15 AM CEST]
+review: reduce code
+
+Reduce code, see suggestions.
+
+------------------------------------------------------------------------------
+[Venkat 10/23/15 05:46 AM CEST]
+review: see suggestions in code
+
+A few more refactoring. See suggestions in code.
+
+------------------------------------------------------------------------------
+[Venkat 10/21/15 06:21 AM CEST]
+review: very nice progress
+
+See suggestion in code.
+
+Move on to the next language after fixing this.
+
+------------------------------------------------------------------------------
+[Venkat 10/18/15 04:07 AM CEST]
+review: I like where you're going with this
+
+Very nice progress.
+
+Drop the : in the test (line 17, for example) and see what happens.
+
+------------------------------------------------------------------------------
+[Venkat 10/17/15 04:26 AM CEST]
+review: good start
+
+In the first test, the new, ( and " are all noises. Let's see if we can
+avoid those.
+
+------------------------------------------------------------------------------
+Ruby

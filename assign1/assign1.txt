@@ -1,0 +1,51 @@
+Assignment 1: Due 11:59PM September 18th
+
+For this assignment we'll use two different languages. One has to be a statically typed language and the other has to be a dynamically typed language.
+
+Create files using proper extensions. Also create either a build file or a sh file that will compile (if necessary) and run your code to display the output or show test results automatically.
+
+If you need help with any of the steps, please ask. You do not have to fight with tools or code for a long time. The purpose of this course is to learn. If you're stuck, then ask for help and it will be given. Of course if you start early, you will be able to make much better progress than if you start late.
+
+In each of the languages, create two implementations for a function that will tell whether a number, given as argument, is a perfect number or not.
+
+A perfect number is a number greater than 1 whose factors total to twice the number. For example, the factors of 6 are 1, 2, 3, and 6. The total of these values is 12 which is twice the given number 6.
+
+The first implementation, in each language, should be in imperative style. The second implementation, in each language, should be in functional style.
+
+Suggestion: Start with one language. Write the code in that languages, evolve it using reviews. Once you've completed code in one language (and gotten a satisfactory review), then create in another language.
+
+After completing the coding (and only after that), answer the following questions:
+
+1. Discuss some of the things you have learned from working on this assignment.
+
+We have learned how to do unit testing in different languages, imperative and functional style.
+We learned that Ruby is a dynamic typing language, attribute types can be determined during run time. However, in Java type must be secured at compile time. 
+We learned how to code in functional style.
+
+2. Were there any thing that surprised you or things that you did not expect.
+
+What surprised us is that Ruby has a built-in unit testing unlike many other languages like Java, C#, Scala, etc. Coding in Ruby is much simpler than it is in Java for the same implementation.
+
+
+3. Given this experience, draw a comparison between the imperative style and the functional style.
+
+Learning from this experience, we had found that coding in imperative style in any languages requires an algorithm or the steps for the compiler to follow in order to solve the problem. Thus, we are able to track the changes in each states of memory. In most of the cases, we use structures or classes to manipulate data and apply loops,  conditional statements, and function calls to implement the algorithm. What we like about the imperative style is we can have better control over execution and memory presentation of data.
+
+Also from this assignment, we had clarified the advantages and strengths of functional style. To solve the problem, we need to know what information or values to collect as part of the solution. Then we just write a set of functions to be executed to collect them. As the name it says, functional style uses functions as the first class object and data collection. Hence, it requires a learning how to do functional calls to make recursion more effective.
+
+4. Given this experience, draw a comparison between static typing and dynamic typing.
+
+In statically typed languages, the variable's type is secured at compile time and is checked by the compiler to reduce type error in the early stage of development. It enforces type safety for all possible executions of the program.
+
+Dynamically typed languages perform their typing checking at run time as oppose to at compile time. The type in dynamic typing is for values not variables. It is more flexible in changing the type of the values but less security guarantees. That's why unit testing is very important for dynamically typed languages to catch errors that cannot be checked by the compiler. 
+
+In this assignment, the function isPerfect in Java (statically typed) is required to return a boolean. If we change the return type, the compiler will show error. However, we can change the return type for Ruby code and the code still run fine if we did not have unit testing.
+
+Total[100]: 100
+Build and tests [10]:
+Imperative Language 1 [20]:
+Functional Language 1 [20]:
+Imperative Language 2 [20]:
+Functional Language 2 [20]:
+Answers for questions in assign1.txt [10]:
+

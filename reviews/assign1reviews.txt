@@ -1,0 +1,54 @@
+[Venkat 09/17/15 05:01 AM EDT]
+review: you're done
+
+good
+
+------------------------------------------------------------------------------
+[Venkat 09/16/15 04:56 AM EDT]
+review: revisit 4
+
+spell check.
+
+3. good
+
+4. Discuss here about your own personal experiences and observations,
+we don't need a list of languages, but your observations of the two here.
+
+------------------------------------------------------------------------------
+[Venkat 09/15/15 05:36 AM EDT]
+review: tie this to your views and observations
+
+spell check.
+
+1. good
+
+2. good
+
+3. Write your experience and observations, in short paragraphs instead of bullets.
+Relate this to your views and observations rather than general theory.
+
+4. Again bring this down to your experience and observations.
+
+------------------------------------------------------------------------------
+[Venkat 09/11/15 06:25 AM CEST]
+review: good progress
+
+coding complete.
+
+------------------------------------------------------------------------------
+[Venkat 09/10/15 16:47 PM CEST]
+review: align and move forward
+
+PerfectNumberFunctional:
+Line up the dots vertically, a dot on one line should be right below
+the dot on the line above (if there is one).
+
+Good work so far.
+
+------------------------------------------------------------------------------
+[Venkat 09/09/15 04:51 AM PDT]
+review: good start
+
+Give space around operators like *.
+
+------------------------------------------------------------------------------

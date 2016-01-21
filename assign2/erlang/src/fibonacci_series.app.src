@@ -1,0 +1,5 @@
+{application, fibonacci_series,
+ [
+  {description, ""},
+  {vsn, "1"}
+ ]}.
